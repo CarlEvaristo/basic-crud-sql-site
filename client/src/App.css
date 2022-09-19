@@ -1,4 +1,55 @@
-.App {
-  text-align: center;
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100vw;
+  min-height:100vh;
+  padding:50px 0;
+  font-size:1.6rem;
 }
-
+main {
+  width:600px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.informationInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  padding:50px 100px;
+  background-color: azure;
+}
+label {
+  align-self: flex-start;
+  font-size: 1.6rem;
+}
+input, button{
+  margin: 0.5em 0 1em;
+  font-size: 1.6rem;
+  padding:1em 1.5em;
+  width:100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border:none;
+  border-radius: 3px;
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  transition: box-shadow 0.2s ease-out;
+  cursor: pointer;
+}
+button:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.exployees {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aqua;
+}
+.employee{
+  width: 100%;
+  /* background-color: red; */
+}
