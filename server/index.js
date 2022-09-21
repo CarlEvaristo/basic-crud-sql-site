@@ -11,7 +11,7 @@ const db = mysql.createConnection({     // connect todb
     host: "localhost",  
     port: 3306,                         // SET PORT HERE , FIND PORT WITH QUERY IN WORKBENCH: SHOW GLOBAL VARIABLES LIKE 'PORT';
     password: "password",               // this is "" or "password" 
-    database: "employeeSystem"          //mind upper/lowercase
+    database: "employeesystem"          //mind upper/lowercase
 })
 
 db.connect()
